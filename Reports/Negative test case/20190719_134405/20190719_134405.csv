@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Negative test case,,,,2019-07-19 13:44:39,2019-07-19 13:44:42,3.169s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidEmailIdLogin,,,,2019-07-19 13:44:40,2019-07-19 13:44:41,0.934s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"")",,,,2019-07-19 13:44:40,2019-07-19 13:44:40,0.005s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-07-19 13:44:40,2019-07-19 13:44:41,0.348s,PASSED
+,,,,,,,
+Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidPwdLogin,,,,2019-07-19 13:44:41,2019-07-19 13:44:41,0.244s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"")",,,,2019-07-19 13:44:41,2019-07-19 13:44:41,0.003s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-07-19 13:44:41,2019-07-19 13:44:41,0.000s,PASSED
+,,,,,,,
+Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpBlankValidation,,,,2019-07-19 13:44:41,2019-07-19 13:44:41,0.271s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"")",,,,2019-07-19 13:44:41,2019-07-19 13:44:41,0.003s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-07-19 13:44:41,2019-07-19 13:44:41,0.000s,PASSED
+,,,,,,,
+Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidContact,,,,2019-07-19 13:44:41,2019-07-19 13:44:42,0.413s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"")",,,,2019-07-19 13:44:42,2019-07-19 13:44:42,0.003s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-07-19 13:44:42,2019-07-19 13:44:42,0.016s,PASSED
+,,,,,,,
+Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidEmail,,,,2019-07-19 13:44:42,2019-07-19 13:44:42,0.401s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"")",,,,2019-07-19 13:44:42,2019-07-19 13:44:42,0.003s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-07-19 13:44:42,2019-07-19 13:44:42,0.006s,PASSED
+,,,,,,,
+Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidPWD,,,,2019-07-19 13:44:42,2019-07-19 13:44:42,0.328s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"")",,,,2019-07-19 13:44:42,2019-07-19 13:44:42,0.002s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-07-19 13:44:42,2019-07-19 13:44:42,0.004s,PASSED

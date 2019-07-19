@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ChromeLaunch,,,,2019-07-11 16:37:04,2019-07-11 16:37:27,23.241s,INCOMPLETE
+,,,,,,,
+Test Cases/Demo/LaunchChrome,,,,2019-07-11 16:37:05,2019-07-11 16:37:27,22.562s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"")",,,,2019-07-11 16:37:07,2019-07-11 16:37:07,0.005s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-07-11 16:37:07,2019-07-11 16:37:12,4.256s,PASSED
+window().maximize(),,,,2019-07-11 16:37:12,2019-07-11 16:37:13,1.239s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-07-11 16:37:13,2019-07-11 16:37:23,9.952s,PASSED
+title = driver.getTitle(),,,,2019-07-11 16:37:23,2019-07-11 16:37:23,0.046s,PASSED
+"out.println(""Title == "" + title)",,,,2019-07-11 16:37:23,2019-07-11 16:37:23,0.014s,PASSED
+"expected_Title = ""Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo""",,,,2019-07-11 16:37:23,2019-07-11 16:37:23,0.002s,PASSED
+"Assert.assertEquals(title, expected_Title, ""Title didn't match"")",,,,2019-07-11 16:37:23,2019-07-11 16:37:23,0.012s,PASSED
+Thread.sleep(3000),,,,2019-07-11 16:37:23,2019-07-11 16:37:26,3.420s,PASSED
+driver.quit(),,,,2019-07-11 16:37:26,2019-07-11 16:37:27,0.830s,PASSED

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InvalidEmailId</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7dd82651-342d-4a1a-a3e7-d871287e8fa2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Sign In/customerSignIn').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d3d72dc9-671c-407c-9dbc-9cf56811eb03</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Sign In/customerSignIn').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>72280928-0743-4e7b-b058-3fe506c388a3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>ef56a17a-da7f-45c0-9621-fa8c4d8f5f0c</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+</TestCaseEntity>

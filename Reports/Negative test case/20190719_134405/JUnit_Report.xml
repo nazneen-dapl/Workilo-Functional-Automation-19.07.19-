@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Negative test case" time="3" tests="0" failures="0" errors="6">
+    <testsuite name="Negative test case" tests="0" failures="0" errors="6" time="3" timestamp="2019-07-19 13:44:39" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/Negative test case">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\Workilo Automation Test\\workilo(Shahbaz)\\functional-Automation-Workilo\\functional-Automation-Workilo\\Reports\\Negative test case\\20190719_134405"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\Workilo Automation Test\\workilo(Shahbaz)\\functional-Automation-Workilo\\functional-Automation-Workilo\\Reports\\Negative test case\\20190719_134405\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.1.188"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidEmailIdLogin" classname="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidEmailIdLogin" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidEmailIdLogin FAILED.&#xA;Reason:&#xA;java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;&#xA;&#x9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;&#xA;&#x9;at InvalidEmailIdLogin.run(InvalidEmailIdLogin:10)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-07-19 13:44:40 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidEmailIdLogin: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidEmailIdLogin FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at InvalidEmailIdLogin.run(InvalidEmailIdLogin:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-07-19 13:44:40 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-19 13:44:40 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null</system-out>
+            <system-err>2019-07-19 13:44:40 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidEmailIdLogin: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidEmailIdLogin FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at InvalidEmailIdLogin.run(InvalidEmailIdLogin:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidPwdLogin" classname="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidPwdLogin" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidPwdLogin FAILED.&#xA;Reason:&#xA;java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;&#xA;&#x9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;&#xA;&#x9;at InvalidPwdLogin.run(InvalidPwdLogin:10)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-07-19 13:44:41 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidPwdLogin: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidPwdLogin FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at InvalidPwdLogin.run(InvalidPwdLogin:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-07-19 13:44:41 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-19 13:44:41 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null</system-out>
+            <system-err>2019-07-19 13:44:41 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidPwdLogin: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/InvalidPwdLogin FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at InvalidPwdLogin.run(InvalidPwdLogin:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpBlankValidation" classname="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpBlankValidation" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpBlankValidation FAILED.&#xA;Reason:&#xA;java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;&#xA;&#x9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;&#xA;&#x9;at SignUpBlankValidation.run(SignUpBlankValidation:10)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-07-19 13:44:41 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpBlankValidation: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpBlankValidation FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at SignUpBlankValidation.run(SignUpBlankValidation:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-07-19 13:44:41 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-19 13:44:41 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null</system-out>
+            <system-err>2019-07-19 13:44:41 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpBlankValidation: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpBlankValidation FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at SignUpBlankValidation.run(SignUpBlankValidation:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidContact" classname="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidContact" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidContact FAILED.&#xA;Reason:&#xA;java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;&#xA;&#x9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;&#xA;&#x9;at SignUpValidationInvalidContact.run(SignUpValidationInvalidContact:10)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-07-19 13:44:41 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidContact: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidContact FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at SignUpValidationInvalidContact.run(SignUpValidationInvalidContact:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-07-19 13:44:42 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-19 13:44:42 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null</system-out>
+            <system-err>2019-07-19 13:44:41 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidContact: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidContact FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at SignUpValidationInvalidContact.run(SignUpValidationInvalidContact:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidEmail" classname="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidEmail" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidEmail FAILED.&#xA;Reason:&#xA;java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;&#xA;&#x9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;&#xA;&#x9;at SignUpValidationInvalidEmail.run(SignUpValidationInvalidEmail:10)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-07-19 13:44:42 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidEmail: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidEmail FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at SignUpValidationInvalidEmail.run(SignUpValidationInvalidEmail:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-07-19 13:44:42 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-19 13:44:42 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null</system-out>
+            <system-err>2019-07-19 13:44:42 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidEmail: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidEmail FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at SignUpValidationInvalidEmail.run(SignUpValidationInvalidEmail:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidPWD" classname="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidPWD" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidPWD FAILED.&#xA;Reason:&#xA;java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;&#xA;&#x9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;&#xA;&#x9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;&#xA;&#x9;at SignUpValidationInvalidPWD.run(SignUpValidationInvalidPWD:10)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-07-19 13:44:42 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidPWD: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidPWD FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at SignUpValidationInvalidPWD.run(SignUpValidationInvalidPWD:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-07-19 13:44:42 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-19 13:44:42 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null</system-out>
+            <system-err>2019-07-19 13:44:42 - [TEST_CASE][ERROR] - Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidPWD: Test Cases/Workilo/Invalid Test Case/RegistrationValidation/SignUpValidationInvalidPWD FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe&#xD;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#xD;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xD;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xD;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#xD;
+	at SignUpValidationInvalidPWD.run(SignUpValidationInvalidPWD:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563524045697.run(TempTestSuite1563524045697.groovy:35)</system-err>
+        </testcase>
+        <system-out>2019-07-19 13:44:39 - [TEST_SUITE][INCOMPLETE] - Negative test case: null</system-out>
+        <system-err>2019-07-19 13:44:39 - [TEST_SUITE][INCOMPLETE] - Negative test case: null</system-err>
+    </testsuite>
+</testsuites>
